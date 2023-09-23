@@ -11,6 +11,11 @@ module.exports = {
       'main_light': '#8391B2',
       'paper': '#E5DBC0',
     },
+    fontFamily: {
+      'cursive': 'Parisienne',
+      'sans' : 'Nunito',
+      'serif' : 'Lora',
+    },
   },
   plugins: [],
 }

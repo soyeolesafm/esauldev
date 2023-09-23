@@ -1,8 +1,14 @@
 import React from "react";
-
+import {useState} from "react"
 const Navbar = () => {
+
+    const [isOpen, setIsOpen] = useState (false)
+    const openMenu =() => {
+        setIsOpen (!isOpen)
+    }
+
     return (
-        <nav className=" flex justify-between  items-center h-24 bg-main_dark m-0 p-0 mx-auto text-paper w-screen fixed " >
+        <nav className=" flex justify-between  items-center h-24 bg-main_dark m-0 p-0 mx-auto text-paper w-screen fixed z-10 " >
              <h1 className= ' z-30 w-full text-3xl font-bold text-paper ml-10 md:ml-24 '  > LOGO </h1>
         <ul className='hidden md:flex justify-between items-center space-x-0 mr-24 ' >
             <li className='p-2 text-lg ' > 
