@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react"
+import  {ReactComponent as Logoesa }  from "./img/logo.svg"
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState (false)
@@ -9,7 +10,7 @@ const Navbar = () => {
 
     return (
         <nav className=" z-10 flex justify-between  items-center h-24 bg-main_dark m-0 p-0 mx-auto text-paper w-screen fixed  " >
-             <h1 className= ' z-40  w-full text-3xl font-bold text-paper ml-10 md:ml-24 '  > LOGO </h1>
+             < Logoesa className= ' z-40 h-4/6 text-3xl font-bold fill-ink stroke-paper w-1/4 ml-10 md:h-20 md:ml-18 ' / > 
         <ul className='hidden md:flex justify-between items-center space-x-0 mr-24 ' >
             <li className='p-2 text-xl ' > 
                 <a href='#home' > Home </a>
