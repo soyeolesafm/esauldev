@@ -1,6 +1,6 @@
 import React from "react";
 import {useState} from "react"
-import  {ReactComponent as Logoesa }  from "./img/logo.svg"
+import  {ReactComponent as Logoesa }  from "./assets/logo.svg"
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState (false)
@@ -56,7 +56,7 @@ const Navbar = () => {
             className='p-2 text-xl '
             onClick={ openMenu }
              >  
-                <a href=' #project '  > Projects </a>
+                <a href=' #projects '  > Projects </a>
             </li>
             <li 
             className='p-2 text-xl mb-24 '

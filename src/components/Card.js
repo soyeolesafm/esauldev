@@ -1,5 +1,5 @@
 import React from 'react';
-import  {ReactComponent as Logoesa }  from "./img/logo.svg"
+import  {ReactComponent as Logoesa }  from "./assets/logo.svg"
 const Card = () => {
     return (
         <div className='  flex flex-col m-auto mt-48 align-middle h-3/6 w-9/12 gap-4  drop-shadow-md rounded-md md:flex-row md:w-7/12' >

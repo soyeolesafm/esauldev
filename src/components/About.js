@@ -18,7 +18,9 @@ const About = () => {
                     I'm excited to contribute my skills and passion to your team and take on new web development challenges
                 </p>
             </div>
-            <div className=" h-1/6 md:h-3/6 w-3/12 m-auto md:mt-48 md:mr-32 pb-0 bg-main_light ">
+            <div className=" h-1/6 md:h-3/6 w-3/12 m-auto md:mt-48 md:mr-32.
+            hjj
+             pb-0 bg-main_light ">
 
                 
 
