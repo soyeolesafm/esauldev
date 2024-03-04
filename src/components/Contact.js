@@ -5,19 +5,19 @@ const Contact = () => {
     return (
         <div className=" bg-paper_dark h-screen " id="contact" >
             <div className=" flex flex-col lg:flex-row h-screen " >
-                <div className=" lg:mt-44 lg:w-1/2 lg:h-full p-8 order-2 lg:order-1 " >
-                    <div className="mb-4 justify-center">
+                <div className=" lg:mt-0 lg:w-1/2 lg:h-full p-8 order-2 lg:order-1 " >
+                    <div className="mb-4 lg:mt-72 justify-center">
                         <Logoesa className=" m-auto mb-2 w-14 h-auto " />
                         <a href="#" className=" block  text-center ">linkedin</a>
 
                     </div>
                     <div>
-                        <Logoesa className=" m-auto mb-2 w-14 h-auto  " />
+                        <Logoesa className=" m-auto mb-2 lg:mt-20 w-14 h-auto  " />
                         <a href="#" className="block text-center" >github</a>
                     </div>
                     
                 </div>
-                <div className=" mt-28 lg:mt-8 lg:w-1/2 lg:h-full p-8 order-1 lg:order-2">
+                <div className=" mt-28 lg:mt-0 lg:w-1/2 lg:h-full p-8 order-1 lg:order-2">
                         <form className="h-full flex flex-col justify-center">
                             <div className="mb-4" >
                                 <label className="block text-main_dark text-sm font-bold mb-2" htmlFor="name">Name:</label>
@@ -39,7 +39,7 @@ const Contact = () => {
                                 <div className="mb-4">
                                     <label className="block text-main_dark text-sm font-bold mb-2" htmlFor="message">Message:</label>
                                     <textarea 
-                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-main_dark leading-tight focus:outline-none focus:shadow_outline"
+                                        className=" lg:h-64 shadow appearance-none border rounded w-full py-2 px-3 text-main_dark leading-tight focus:outline-none focus:shadow_outline"
                                         id="message"
                                         rows={4}
                                         placeholder="Message"
