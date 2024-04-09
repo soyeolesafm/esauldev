@@ -5,14 +5,14 @@ const Contact = () => {
     return (
         <div className=" bg-paper_dark h-screen " id="contact" >
             <div className=" flex flex-col lg:flex-row h-screen " >
-                <div className=" lg:mt-0 lg:w-1/2 lg:h-full p-8 order-2 lg:order-1 " >
+                <div className=" lg:mt-0 lg:w-1/2 lg:h-full p-8 order-2 lg:order-1 flex lg:flex-col space-x-36 pl-14 lg:pl-8 lg:space-x-0 lg:space-y-10 mt-5 flex-row"  >
                     <div className="mb-4 lg:mt-72 justify-center">
                         <Logoesa className=" m-auto mb-2 w-14 h-auto " />
                         <a href="#" className=" block  text-center ">linkedin</a>
 
                     </div>
                     <div>
-                        <Logoesa className=" m-auto mb-2 lg:mt-20 w-14 h-auto  " />
+                        <Logoesa className=" m-auto mb-2 w-14 h-auto  " />
                         <a href="#" className="block text-center" >github</a>
                     </div>
                     
