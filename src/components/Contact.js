@@ -1,4 +1,5 @@
 import {ReactComponent as Logoesa} from "./assets/logo.svg"
+import {ReactComponent as Logogh} from "./assets/github_logo.svg"
 import React from "react";
 
 const Contact = () => {
@@ -12,8 +13,10 @@ const Contact = () => {
 
                     </div>
                     <div>
-                        <Logoesa className=" m-auto mb-2 w-14 h-auto  " />
-                        <a href="#" className="block text-center" >github</a>
+                        
+                        <a href="https://github.com/soyeolesafm" className="block text-center" >
+                        <Logogh className=" m-auto mb-2 w-14 h-auto  " />
+                        </a>
                     </div>
                     
                 </div>
