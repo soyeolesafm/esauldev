@@ -14,8 +14,8 @@ const Contact = () => {
                     </div>
                     <div>
                         
-                        <a href="https://github.com/soyeolesafm" className="block text-center" >
-                        <Logogh className=" m-auto mb-2 w-14 h-auto  " />
+                        <a href="https://github.com/soyeolesafm" target="blank" className="block text-center" >
+                        <Logogh className=" m-auto mb-12 w-32 h-auto " />
                         </a>
                     </div>
                     
