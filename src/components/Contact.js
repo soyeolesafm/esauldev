@@ -1,5 +1,5 @@
-import {ReactComponent as Logoesa} from "./assets/logo.svg"
-import {ReactComponent as Logogh} from "./assets/github_logo.svg"
+import {ReactComponent as LogoLi} from "./assets/linkedin_logo_fill.svg"
+import {ReactComponent as Logogh} from "./assets/github_logo_fill.svg"
 import React from "react";
 
 const Contact = () => {
@@ -7,15 +7,17 @@ const Contact = () => {
         <div className=" bg-paper_dark h-screen " id="contact" >
             <div className=" flex flex-col lg:flex-row h-screen " >
                 <div className=" lg:mt-0 lg:w-1/2 lg:h-full p-8 order-2 lg:order-1 flex lg:flex-col space-x-36 pl-14 lg:pl-8 lg:space-x-0 lg:space-y-10 mt-5 flex-row"  >
-                    <div className="mb-4 lg:mt-72 justify-center">
-                        <Logoesa className=" m-auto mb-2 w-14 h-auto " />
-                        <a href="#" className=" block  text-center ">linkedin</a>
+                    <div className="mb-4 lg:mt-60 justify-center">
+                        
+                        <a href="https://www.linkedin.com/in/esaul-flores-medina-3b977a1aa" target="blank" className=" block  text-center ">
+                        <LogoLi className=" m-auto mb-2 w-14 h-auto fill-ink " />
+                        </a>
 
                     </div>
                     <div>
                         
                         <a href="https://github.com/soyeolesafm" target="blank" className="block text-center" >
-                        <Logogh className=" m-auto mb-12 w-32 h-auto " />
+                        <Logogh className=" m-auto mb-12 w-14 h-auto fill-ink " />
                         </a>
                     </div>
                     
