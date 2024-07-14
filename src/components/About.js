@@ -1,4 +1,5 @@
 import React from "react";
+import {ReactComponent as Laptop} from "./assets/laptop.svg"
 
 const About = () => {
     return (
@@ -19,10 +20,10 @@ const About = () => {
                 </p>
             </div>
             <div className=" h-1/6 md:h-3/6 w-3/12 m-auto md:mt-48 md:mr-32.
-            hjj
-             pb-0 bg-main_light ">
+            
+             pb-0  ">
 
-                
+                <Laptop className=" fill-ink " />
 
             </div>
 
